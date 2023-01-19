@@ -1,0 +1,51 @@
+#player-dashboard {
+  text-align: center;
+  width: 90%;
+  max-width: 40rem;
+  margin: 3rem auto;
+}
+
+#player-dashboard ol {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+#player-dashboard ol li {
+  border: 1px solid rgb(225, 225, 225);
+  box-shadow: 0 1px 4px rgb(0, 0, 0, 0.2);
+  padding: 1rem;
+  width: 50%;
+  margin: 1rem;
+  background-color: rgb(243, 227, 255);
+  border-radius: 4px;
+}
+
+.dashboard-card h2 {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.dashboard-card h3 {
+  margin: 0.5rem 0;
+  font-size: 1.5rem;
+  color: rgb(94, 4, 168);
+}
+
+.player-symbol {
+  margin: 0.5rem 0;
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(47, 4, 82);
+}
+
+.dashboard-card button {
+  margin: 0;
+}
+
+#player-dashboard > button {
+  margin: 1rem 0;
+}

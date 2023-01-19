@@ -1,0 +1,36 @@
+#config-overlay h2 {
+  margin: 0.5rem 0;
+}
+
+#player-details label {
+  display: block;
+  margin: 0.5rem 0;
+  font-weight: bold;
+}
+
+#player-details input {
+  font: inherit;
+  margin: 0.5rem;
+  padding: 0.35rem;
+  border: 1px solid rgb(204, 204, 204);
+  width: 15rem;
+  border-radius: 6px;
+}
+
+.error label {
+  color: rgb(136, 2, 2);
+}
+
+.error input {
+  border-color: rgb(136, 2, 2);
+  color: rgb(136, 2, 2);
+  background-color: rgb(253, 219, 219);
+}
+
+#names-not-entered-warning {
+  color: rgb(136, 2, 2);
+}
+
+#config-buttons button {
+  margin: 0.5rem 0.5rem;
+}
